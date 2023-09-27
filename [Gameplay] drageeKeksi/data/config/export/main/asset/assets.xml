@@ -1,0 +1,56 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID='1010200'>
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID></GUID>
+                    <Name>Dragee Keksi</Name>
+                    <IconFilename>data/graphics/icons/Kekstuete.png</IconFilename>
+                    <InfoDescription>2130022000</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Dragee Keksi</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                        <German>
+                            <Text>Dragee Keksi</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </German>
+                    </LocaText>
+                </Text>
+
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11708</ProductCategory>                    <!-- Public supply -->
+                    <BasePrice>250</BasePrice>
+                    <CivLevel>5</CivLevel>
+                    <AssociatedRegion>Moderate</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Moderate</RegionType>
+                            <RequiredDLCs>
+                                <Item>
+                                    <RequiredDLC>410085</RequiredDLC>                                    <!-- Tourist Season -->
+                                </Item>
+                            </RequiredDLCs>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>20</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
